@@ -22,7 +22,6 @@ body{
 }
 
 .main{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -32,13 +31,13 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    min-height: 100vh;
 }
 
 .home-img{
     background-image: url(assets/Forest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
     max-width: 100%;
 }
 
